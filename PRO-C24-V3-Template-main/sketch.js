@@ -50,7 +50,7 @@ function draw() {
 
   playerArcher.display();
 
-    for (var i; i < playerArrows.length; i++) {
+    for (var i=0; i < playerArrows.length; i++) {
       if (playerArrows[i] !== undefined) {
         playerArrows[i].display();
       }
